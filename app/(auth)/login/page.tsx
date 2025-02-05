@@ -1,7 +1,15 @@
-export default function Login() {
+import { Card, CardContent } from "@/components/ui/card";
+import AuthTabs from "./AuthTabs";
+
+export default function LoginPage() {
   return (
-    <div className="w-full border border-red-500 h-full">
-      <h1>Login</h1>
-    </div>
+    <Card className="border-0 flex  w-full  max-w-md h-full ">
+      <CardContent className="flex justify-center    flex-col gap-10 h-full">
+        <h1 className="text-4xl font-bold text-center tracking-tight">
+          Boas-vindas ao Joana.co*
+        </h1>
+        <AuthTabs />
+      </CardContent>
+    </Card>
   );
 }
