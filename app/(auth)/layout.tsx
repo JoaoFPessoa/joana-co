@@ -69,7 +69,7 @@ export default function Layout({
         </div>
 
         {/* Right section (children) */}
-        <div className="md:w-1/2 p-6   flex flex-col items-center justify-center">
+        <div className="md:w-1/2 p-6 h-full   flex flex-col items-center justify-center">
           {children}
         </div>
       </div>
